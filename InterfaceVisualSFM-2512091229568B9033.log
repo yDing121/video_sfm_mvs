@@ -1,0 +1,29 @@
+12:29:56 [App     ] Build date: Mar 15 2017, 11:57:05
+12:29:56 [App     ] CPU: 11th Gen Intel(R) Core(TM) i5-1145G7 @ 2.60GHz
+12:29:56 [App     ] RAM: 15.33GB Physical Memory 19.33GB Virtual Memory
+12:29:56 [App     ] OS: Linux 6.17.4-76061704-generic (x86_64)
+12:29:56 [App     ] SSE & AVX compatible CPU & OS detected
+12:29:56 [App     ] Command line:
+12:29:56 [App     ] Available options:
+
+Generic options:
+  -h [ --help ]                         produce this help message
+  -w [ --working-folder ] arg           working directory (default current 
+                                        directory)
+  -c [ --config-file ] arg (=InterfaceVisualSFM.cfg)
+                                        file name containing program options
+  --archive-type arg (=2)               project archive type: 0-text, 1-binary,
+                                        2-compressed binary
+  --process-priority arg (=-1)          process priority (below normal by 
+                                        default)
+  --max-threads arg (=0)                maximum number of threads (0 for using 
+                                        all available cores)
+  -v [ --verbosity ] arg (=2)           verbosity level
+
+Main options:
+  -i [ --input-file ] arg               input filename containing camera poses 
+                                        and image list
+  -o [ --output-file ] arg              output filename for storing the mesh
+  --output-image-folder arg (=undistorted_images)
+                                        output folder to store undistorted 
+                                        images
